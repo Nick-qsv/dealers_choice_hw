@@ -1,0 +1,24 @@
+{
+  "name": "dealers_choice.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dealers_choice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pluck": "nodemon dealers_choice",
+    "start": "nodemon dealers_choice.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nick-qsv/dealers_choice_hw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nick-qsv/dealers_choice_hw/issues"
+  },
+  "homepage": "https://github.com/Nick-qsv/dealers_choice_hw#readme",
+  "dependencies": {
+    "nodemon": "^2.0.14"
+  }
+}

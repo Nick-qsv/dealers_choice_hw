@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Nick-qsv/dealers_choice_hw#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "nodemon": "^2.0.14"
   }
 }

@@ -38,7 +38,20 @@ app.get("/books/:id", (req, res) => {
     //if (!post.id){}
     const html = `<!DOCTYPE html>
     <html>
-
+        <body>
+         <div>
+          <a href='/'>Back to Book List</a>
+          <p>
+           <a>${book.title}</a><small> (by ${book.author})</small>
+          </p>
+           <small class="book-details">
+            <a>${book.content}</a>
+           </small>
+           <p>
+            Rating: ${book.rating}
+           </p>
+         </div>
+        </body>
     </html>
     `
     res.send(html);

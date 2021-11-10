@@ -112,7 +112,9 @@ textarea {
 
 .book-content-details {
   display: flex;
-  margin-left: 45rem;
-  margin-right: 45rem;
+  padding: 2rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  justify-content: center;
   text-align: center;
 }
